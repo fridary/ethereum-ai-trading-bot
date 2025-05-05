@@ -1,0 +1,74 @@
+coingecko.com
+dextools.io
+defined.fi
+zerion.io - wallet trades
+zapper.xyz - wallet trades
+debank.com - wallet trades
+dexscreener.com
+dexcheck.ai - wallet trades
+ethplorer.io
+dexview.com - смотреть выход новых монет
+coinstats.app
+dune.com/defimochi/token-god-mode - token and wallet analz
+portfolio.nansen.ai/dashboard
+api.syve.ai/dashboards/pnl_checker/
+nftgm.com/wallet-analyze-eth/ - wallet trades
+defillama.com
+birdeye.so
+deepdao.io
+app.nansen.ai
+app.ushi.pro
+lunarcrush.com - Social media impacts markets
+francium.io - borrow assets for short positions
+blockchair.com
+app.bubblemaps.io/eth/ - выявление сетки кошельков
+platform.arkhamintelligence.com
+de.fi - проверка на scam контрактов и high risk (https://www.youtube.com/watch?v=vWtphUfXMvo)
+app.alphascan.xyz - tweet и telegram posts performances (https://www.youtube.com/watch?v=QkO80mCDX1k)
+app.tweetscout.io
+dexanalyzer.io - анализ токенов
+eth.moonarch.app - анализ токенов
+honeypot.is/ethereum - анализ токенов
+app.quickintel.io/scanner - анализ токенов
+moralismoney.com/token-explorer - поиск токенов
+abi.ninja - тех характеристики токенов
+lab.miguelmota.com/ethereum-input-data-decoder/example/ - input decoder
+rawtxdecode.in - input decoder
+pinksale.finance - launchpad dex / анализ токенов до листинга
+gempad.app - launchpad dex
+cryptach.org
+geckoterminal.com - dex screener
+dexanalyzer.io - анализ контракта скам или нет
+revert.finance
+whale-alert.io
+app.uncx.network/amm - ликвидности locked смотреть
+v2.info.uniswap.org
+apespace.io
+gopluslabs.io - проверка на honeypot (https://dexscreener.com/ethereum/0xbf3905b60425edcbfdca82b4e2448d781183f1d7)
+https://optim.tildacdn.net/tild3336-3236-4462-b538-383266633565/-/format/webp/12.png - скрин с сервисами детекта скама
+dexspy.io
+coinscan.com
+app.dexcelerate.com
+apespace.io
+www.pump.fun
+https://openchain.xyz/trace/ethereum/0xe0a465d1e4a622ca43db886b589122c6f44390b6a1a1715aab0948ac246619c9 - call tracer
+flashbots-explorer.marto.lol
+mevboost.pics
+boost-relay.flashbots.net
+transparency.flashbots.net (https://boost.flashbots.net/mev-boost-status-updates/introducing-the-flashbots-transparency-dashboard)
+libmev.com
+  https://crypticwoods.com/blog/libmev-data-methodologies/
+  https://ethereum.stackexchange.com/questions/164215/why-transaction-with-higher-gas-priority-fee-executes-later-than-with-lower-prio
+photon.tinyastro.io
+app.dexhunter.io
+taptools.io/?tokens=recently+added
+dextrend.io/eth
+coinspeedrun.com
+pirb-erc20.gitbook.io/pirb-erc20/pirb-ai-bot
+gmgn.ai
+tweetbinder.com
+app.cielo.finance/feed - top wallets find
+alphatrace.co
+cryptoquant.com
+@BitcoinSniper в telegram
+definest.ai

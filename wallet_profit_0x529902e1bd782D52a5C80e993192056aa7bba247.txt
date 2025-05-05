@@ -1,0 +1,207 @@
+wallet: 0x529902e1bd782D52a5C80e993192056aa7bba247
+transactions by w3: 188
+LAST_BACKTESTING_BLOCK: 22416800
+0.084s select transactions_tupl get_wallet_transactions_only_transfers(), len(_rows): 42
+first trade: 2024-11-30 06:14:23, last_trade: 2025-03-13 13:42:35
+total_time for p_i, tx_sql in enumerate(transactions_tupl): 0.010s
+total_address_transfers=84
+0.146s получение token_pairs
+0.702s получение get_mints_txs и проход в цикле
+1.074s calculate_wallet_profit()
+Wei Wei, first trade: -
+0x89E8E084cC60e6988527f0904b4bE71656e8bFA9 SMOG, first trade: 2024-11-30 06:14:23
+0x20561172f791f915323241E885b4f7D5187c36E1 CAL, first trade: 2024-11-30 06:15:11
+0x13E4b8CfFe704d3De6F19E52b201d92c21EC18bD PAI, first trade: 2024-11-30 06:17:11
+0xcDbddbdEFB0eE3eF03a89AFcd714aa4ef310D567 VERTAI, first trade: 2024-12-16 07:59:23
+0xaeB3607eC434454ceB308f5Cd540875efb54309A STRDY, first trade: 2024-12-17 04:12:47
+0x68A47Fe1CF42eBa4a030a10CD4D6a1031Ca3CA0a TET, first trade: 2024-12-17 05:21:59
+0x4507cEf57C46789eF8d1a19EA45f4216bae2B528 TOKEN, first trade: 2024-12-17 05:27:59
+0x3567aa22cd3ab9aEf23d7e18EE0D7cf16974d7e6 SAI, first trade: 2025-01-03 19:58:35
+0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C SPX, first trade: 2025-01-04 03:54:59
+0x3B604747ad1720C01ded0455728b62c0d2F100F0 WAGMIGAMES, first trade: 2025-01-24 22:09:35
+0xc092A137df3cF2B9e5971ba1874D26487C12626d RING, first trade: 2025-01-24 22:11:23
+0xae41b275aaAF484b541A5881a2dDED9515184CCA CSWAP, first trade: 2025-01-24 22:12:47
+0x3eE4B152824b657644c7A9B50694787e80EB8F4a BAZED, first trade: 2025-01-24 22:13:35
+0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15 KATA, first trade: 2025-01-24 22:14:47
+0x467Bccd9d29f223BcE8043b84E8C8B282827790F TEL, first trade: 2025-02-21 17:44:23
+0xC076ADcE868755Ca0BaD7b93A2832eBAdE2812b5 claim rewards on BlazeEther.com, first trade: -
++--------------------------+----------+------------+---------+---------------+---------------+---------------+----------+------------+-----------+---------+---------+---------+--------+------------+---------+------------+
+|                    value |   symbol |   invested |     gas |     balanceOf |         liq_f |         liq_l |   trades |     r_prof |   ur_prof |   roi_r |   roi_u |   roi_t |   days |        pnl |     bfm |         ft |
+|--------------------------+----------+------------+---------+---------------+---------------+---------------+----------+------------+-----------+---------+---------+---------+--------+------------+---------+------------|
+| -0.009 ETH, -16.54 $ (!) |      Wei |        0 $ |     0 $ | 0.006 ETH (!) |               |               |          |            |           |         |         |         |        |            |         |            |
+|        -2986.0, -26.59 $ |     SMOG |        0 $ |  8.54 $ |       0.0 (!) |   197k/213k $ | 82.8k/91.9k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A | 156.16 |        N/A |         | 2024-11-30 |
+|     -12756.322, -10.71 $ |      CAL |        0 $ |  7.26 $ |       0.0 (!) | 47.8k/30.6k $ |       1.06k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A | 156.16 |        N/A |         | 2024-11-30 |
+|                        0 |      PAI |   100.29 $ | 14.87 $ |           0.0 |       1.52m $ |        418k $ |      1/1 |   -42.55 $ |         0 |    -42% |       0 |    -42% |  55.66 |   -42.55 $ |         | 2024-11-30 |
+|                        0 |   VERTAI |  1031.42 $ | 36.44 $ |           0.0 |       2.09m $ |        944k $ |      4/1 | -1031.42 $ |         0 |   -100% |       0 |   -100% |  67.41 | -1031.42 $ | -137510 | 2024-12-16 |
+|                        0 |    STRDY |  3056.03 $ | 15.97 $ |           0.0 |   830k/968k $ |               |      1/1 | -1823.98 $ |         0 |    -60% |       0 |    -60% |  48.66 | -1823.98 $ |         | 2024-12-17 |
+|        -40.407, -47.64 $ |      TET |        0 $ |   6.7 $ |       0.0 (!) |       3.79m $ |   505k/505k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A | 139.19 |        N/A |         | 2024-12-17 |
+|    -60283.917, -1107.9 $ |    TOKEN |        0 $ | 17.13 $ |       0.0 (!) |       6.62m $ |       2.49m $ |      0/3 |        0 $ |   N/A (!) |       0 |     N/A |     N/A |  19.85 |        N/A |         | 2024-12-17 |
+|       11357.267, 148.3 $ |      SAI |  1049.56 $ |  8.36 $ |     11357.267 |        733k $ |        232k $ |      1/0 |        0 $ | -901.26 $ |       0 |    -86% |    -86% | 121.58 |  -901.26 $ | -301304 | 2025-01-03 |
+|        693.378, 366.78 $ |      SPX |   754.02 $ | 12.54 $ |       693.378 |               |       9.38m $ |      3/0 |        0 $ | -387.24 $ |       0 |    -51% |    -51% | 121.25 |  -387.24 $ |  208951 | 2025-01-04 |
+| -58598236.505, -230.27 $ | WAGMIG.. |        0 $ | 14.16 $ |       0.0 (!) |       1.35m $ |        747k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A | 100.49 |        N/A |         | 2025-01-24 |
+|      -1503.095, -16.91 $ |     RING |        0 $ |  6.39 $ |       0.0 (!) |        548k $ |        230k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A |    0.0 |        N/A |         | 2025-01-24 |
+|      -5416.369, -74.44 $ |    CSWAP |        0 $ |   6.6 $ |       0.0 (!) |       1.86m $ |        754k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A |    0.0 |        N/A |         | 2025-01-24 |
+|     -5153.186, -161.74 $ |    BAZED |        0 $ |  5.86 $ |       0.0 (!) |        427k $ |        270k $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A |    0.0 |        N/A |         | 2025-01-24 |
+|    -861971.762, -127.8 $ |     KATA |        0 $ |  5.16 $ |       0.0 (!) |   410k/101k $ |   29.4/29.4 $ |      0/1 |        0 $ |   N/A (!) |       0 |     N/A |     N/A | 100.49 |        N/A |         | 2025-01-24 |
+|       46819.19, 259.32 $ |      TEL |        0 $ |  5.04 $ |      46819.19 |       64.4k $ |       39.1k $ |      1/0 |        0 $ |  259.32 $ |       0 |     N/A |     N/A |  72.68 |        N/A |   60508 | 2025-02-21 |
+|                        0 | claim .. |        0 $ |     0 $ |         ? (!) |               |               |      0/0 |        0 $ |         0 |       0 |     N/A |     N/A |    N/A |            |         |            |
++--------------------------+----------+------------+---------+---------------+---------------+---------------+----------+------------+-----------+---------+---------+---------+--------+------------+---------+------------+
+5.784s calculate_wallet_live()
+{'days_median': 67.40625,
+ 'incorrect_balancesof': 10,
+ 'invested_usd': 5237.29756514077,
+ 'invested_usd_median': 1031.42196680077,
+ 'lose': 4,
+ 'minutes_median': 97065.0,
+ 'pnl': -3539.887128756186,
+ 'pnl_median': -901.2573991902095,
+ 'rating': -28.79792618354432,
+ 'rating_with_days': -28.305793449578037,
+ 'realized_profit': -2897.946177728976,
+ 'roi': -287.9792618354432,
+ 'roi_lose_median': -72.77735968048333,
+ 'roi_median': -59.684574009885495,
+ 'roi_win_median': 0,
+ 'token_trades_avg': 3.2,
+ 'tokens': 5,
+ 'total_withdrawal_usd': -5237.29756514077,
+ 'total_withdrawal_usd_median': -1031.42196680077,
+ 'unrealized_profit': -641.9409510272096,
+ 'w3_trades': 188,
+ 'win': 1,
+ 'win_rate': 20.0}
+script executed in 6.86s
+2025-05-05 09:59:07.447119 begin stat_wallets_address()
+0.038s get_address_transfers() for stat_wallet_address
+2025-05-05 09:59:07.649607 0.152s get_balance() ether и 2x contract_balanceOf() USDT/USDC
+ address=0x529902e1bd782D52a5C80e993192056aa7bba247, transfers_sql len=84
+0.001s for alch in transfers_sql (len=84)
+0.002s for 3 loops
+2025-05-05 09:59:07.652843 end stat_wallets_address(), took 0.206s
+{'age_days': 139.27375,
+ 'avg_blocks_per_trans': 17611.5,
+ 'balance_eth': 0.00578315072408414,
+ 'balance_usd': 0.0,
+ 'banana_trans': 0,
+ 'banana_trans_perc': 0.0,
+ 'diff_between_first_and_last': 739683,
+ 'erc1155_from': 0,
+ 'erc1155_to': 1,
+ 'erc20_addresses': ['0x467bccd9d29f223bce8043b84e8c8b282827790f',
+                     '0xcdbddbdefb0ee3ef03a89afcd714aa4ef310d567',
+                     '0xaeb3607ec434454ceb308f5cd540875efb54309a',
+                     '0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15',
+                     '0x3ee4b152824b657644c7a9b50694787e80eb8f4a',
+                     '0xae41b275aaaf484b541a5881a2dded9515184cca',
+                     '0x4507cef57c46789ef8d1a19ea45f4216bae2b528',
+                     '0xc092a137df3cf2b9e5971ba1874d26487c12626d',
+                     '0x3b604747ad1720c01ded0455728b62c0d2f100f0',
+                     '0x13e4b8cffe704d3de6f19e52b201d92c21ec18bd',
+                     '0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c',
+                     '0x3567aa22cd3ab9aef23d7e18ee0d7cf16974d7e6',
+                     '0x68a47fe1cf42eba4a030a10cd4d6a1031ca3ca0a',
+                     '0x20561172f791f915323241e885b4f7d5187c36e1',
+                     '0x89e8e084cc60e6988527f0904b4be71656e8bfa9'],
+ 'erc20_bought_n_not_sold': 3,
+ 'erc20_bought_n_not_sold_addresses': ['0x467bccd9d29f223bce8043b84e8c8b282827790f',
+                                       '0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c',
+                                       '0x3567aa22cd3ab9aef23d7e18ee0d7cf16974d7e6'],
+ 'erc20_bought_n_not_sold_perc': 20.0,
+ 'erc20_eth_received_avg': 0.08781497271799717,
+ 'erc20_eth_received_max': 0.4445982410267918,
+ 'erc20_eth_received_median': 0.06709891532436585,
+ 'erc20_eth_received_min': 0.008199540832978533,
+ 'erc20_eth_received_std': 0.11894880953199735,
+ 'erc20_eth_received_sum': 0.9659646998979687,
+ 'erc20_eth_send_avg': 0.15588,
+ 'erc20_eth_send_max': 0.76,
+ 'erc20_eth_send_median': 0.0545,
+ 'erc20_eth_send_min': 0.015,
+ 'erc20_eth_send_std': 0.21864804961398582,
+ 'erc20_eth_send_sum': 1.5587999999999997,
+ 'erc20_from': 20,
+ 'erc20_from_div_uniq_trans': 0.47619047619047616,
+ 'erc20_hold_time_block_avg': 288816.3333333333,
+ 'erc20_hold_time_block_max': 482548,
+ 'erc20_hold_time_block_median': 398613.5,
+ 'erc20_hold_time_block_min': 0,
+ 'erc20_hold_time_block_std': 167394.29620675716,
+ 'erc20_hold_time_block_sum': 3465796,
+ 'erc20_to': 11,
+ 'erc20_to_div_uniq_trans': 0.2619047619047619,
+ 'erc20_uniq_addresses_received': 6,
+ 'erc20_uniq_addresses_send': 12,
+ 'erc20_value_usd_avg': 428.81374276120084,
+ 'erc20_value_usd_max': 3413.2281542316678,
+ 'erc20_value_usd_median': 96.76043499171784,
+ 'erc20_value_usd_min': 3.977991613689735e-12,
+ 'erc20_value_usd_std': 793.2429032473343,
+ 'erc20_value_usd_sum': 13293.226025597227,
+ 'erc721_from': 0,
+ 'erc721_to': 0,
+ 'eth_received_external_avg': 0.46607258676249463,
+ 'eth_received_external_max': 0.84369443868892,
+ 'eth_received_external_median': 0.46607258676249463,
+ 'eth_received_external_min': 0.0884507348360692,
+ 'eth_received_external_std': 0.3776218519264254,
+ 'eth_received_external_sum': 0.9321451735249893,
+ 'eth_received_internal_avg': 0.14900103132653125,
+ 'eth_received_internal_max': 0.75853997,
+ 'eth_received_internal_median': 0.07286435227318203,
+ 'eth_received_internal_min': 0.008199540832978533,
+ 'eth_received_internal_std': 0.2020910261996409,
+ 'eth_received_internal_sum': 2.2350154698979687,
+ 'eth_sent_external_avg': 0.08927714285714286,
+ 'eth_sent_external_max': 0.76,
+ 'eth_sent_external_median': 0.0,
+ 'eth_sent_external_min': 0.0,
+ 'eth_sent_external_std': 0.1944679159519479,
+ 'eth_sent_external_sum': 3.1247,
+ 'eth_sent_internal_avg': 0,
+ 'eth_sent_internal_max': 0,
+ 'eth_sent_internal_median': 0,
+ 'eth_sent_internal_min': 0,
+ 'eth_sent_internal_std': 0.0,
+ 'eth_sent_internal_sum': 0,
+ 'eth_total_avg': 0.12099732006582611,
+ 'eth_total_max': 0.84369443868892,
+ 'eth_total_median': 0.015192061127918157,
+ 'eth_total_min': 0.0,
+ 'eth_total_std': 0.2195521300190869,
+ 'eth_total_sum': 6.291860643422958,
+ 'external_from': 35,
+ 'external_from_addresses_n_values': {'0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad': [0.029,
+                                                                                     0.1788,
+                                                                                     0.015,
+                                                                                     0.29,
+                                                                                     0.135,
+                                                                                     0.76,
+                                                                                     0.015,
+                                                                                     0.079,
+                                                                                     0.03,
+                                                                                     0.027],
+                                      '0xebb7f5fb9fbbd55b36efe7268c28072ef00220e4': [0.45,
+                                                                                     0.39,
+                                                                                     0.7259]},
+ 'external_from_div_uniq_trans': 0.8333333333333334,
+ 'external_to': 2,
+ 'external_to_div_uniq_trans': 0.047619047619047616,
+ 'first_in_transaction_block': 21414029,
+ 'first_in_transaction_from_address': '0xacf4f716d1ce4ff2a2770c9362055ba7ce435e31',
+ 'first_in_transaction_from_address_value_eth': 0.0884507348360692,
+ 'internal_from': 0,
+ 'internal_from_div_uniq_trans': 0.0,
+ 'internal_to': 15,
+ 'internal_to_div_uniq_trans': 0.35714285714285715,
+ 'maestro_trans': 0,
+ 'maestro_trans_perc': 0.0,
+ 'nonce': 188,
+ 'total_from': 55,
+ 'total_to': 29,
+ 'transfers_sql_len': 84,
+ 'unique_received_from_addresses': 5,
+ 'unique_received_from_addresses_div_uniq_trans': 0.11904761904761904,
+ 'unique_received_to_addresses': 26,
+ 'unique_received_to_addresses_div_uniq_trans': 0.6190476190476191,
+ 'unique_transactions': 42}
+0.208s get_stat_wallets_address()

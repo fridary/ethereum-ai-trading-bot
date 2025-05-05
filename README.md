@@ -1,7 +1,5 @@
 # Ethereum Meme Coins AI Trading Bot
 
-## Introduction to DeFi Meme Coins
-
 This project is an AI-powered, real-time trading framework for meme coins and altcoins on Ethereum decentralized exchanges (DEXs) like Uniswap, focusing on the rapidly evolving DeFi ecosystem. Meme coins have evolved from simple joke cryptocurrencies into a significant segment of the decentralized finance (DeFi) ecosystem. Meme coin and altcoin market has exploded with thousands of tokens, often built on the Ethereum blockchain. These tokens typically gain value through community engagement, viral marketing, and speculative trading rather than fundamental utility.
 
 I wrote this system for myself from scratch, so it will not be possible to launch it quickly, since it is in its raw form. I was actively working on this in 2024, and now I have abandoned it, so I think I should post my source codes, because there are many useful utilities and functions for connecting to nodes and working with them, which will save you a lot of programming time, especially indexing the blockchain in a convenient structured form.
